@@ -1,7 +1,6 @@
 /* CC */
 .cc {
   background: no-repeat center/cover;
-  background-image: url("/cc-bg.svg");
   width: 36rem;
   height: 23rem;
   padding: 2rem;
@@ -20,6 +19,7 @@
 .cc-info {
   display: grid;
   gap: 1.4rem;
+  z-index: 0;
 }
 
 .cc-number {
@@ -67,5 +67,4 @@
 .cc-bg {
   position: absolute;
   inset: 0;
-  z-index: 0;
 }
